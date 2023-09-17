@@ -1,0 +1,13 @@
+<a [routerLink]="['/']">
+  <h1>My Store</h1>
+</a>
+
+<!-- Mostrar solo si el usuario está autenticado -->
+<a *ngIf="authGuard.isAuthenticated()" routerLink="/cart" class="button fancy-button">
+  <em class="material-icons">shopping_cart</em>Checkout
+</a>
+
+<!-- Mostrar solo si el usuario está autenticado -->
+<button *ngIf="authGuard.isAuthenticated()" class="button fancy-button" (click)="logout()">
+  <em class="material-icons">exit_to_app</em>Logout
+</button>

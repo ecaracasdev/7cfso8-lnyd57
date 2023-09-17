@@ -1,0 +1,34 @@
+# Archivos de dependencias
+/node_modules
+
+# Archivos de configuración de IDE
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# Archivos de registro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de compilación
+/dist
+/tmp
+/out-tsc
+
+# Configuraciones de compilación
+.sass-cache
+
+# Archivos de caché del editor de código
+.vscode/
+*.code-workspace
+
+# Archivos generados automáticamente por Angular CLI
+.angular/
+
+# Otras configuraciones de proyectos
+.env
+.env.local
